@@ -1,2 +1,55 @@
 // The latest settings can be found here:
 // https://github.com/zurb/bower-foundation/blob/master/scss/foundation/_settings.scss
+
+@import 'foundation/functions';
+
+$bigger-font-size: 1.125rem;
+$row-width: rem-calc(1920);
+$column-gutter: rem-calc(24);
+
+$small-range: (0em, 768px);
+$medium-range: (769px, 899px);
+$large-range: (900px, 1239px);
+$xlarge-range: (1240px, 9999px);
+
+$include-xl-html-grid-classes: true;
+$include-xl-html-block-grid-classes: true;
+$include-html-dropdown-classes: true;
+
+$min-width: 640px;
+$max-width: 1920px;
+
+$black: #000000;
+$main-color: #b3b2b2;
+$silver: #EFEFEF;
+
+$body-font-color: $black;
+$anchor-text-decoration: underline;
+$anchor-font-color: $black;
+$body-font-family: "Myriad Pro";
+$inline-list-default-float-list-margin: rem-calc(15);
+
+$form-label-font-color: $black;
+$input-bg-color: $main-color;
+$input-focus-bg-color: $main-color;
+$input-border-width: 0px;
+$input-font-color: $black;
+
+
+$f-dropdown-bg: $main-color;
+$f-dropdown-font-color: $black;
+$f-dropdown-border-style: none;
+$f-dropdown-triangle-size: 0px;
+
+$button-font-color: $black;
+
+$topbar-bg-color: $main-color;
+$topbar-link-color: $black;
+$topbar-link-font-size: $bigger-font-size;
+$topbar-menu-link-color: $black;
+$topbar-menu-icon-color: $black;
+$topbar-dropdown-bg: $main-color;
+
+$accordion-content-active-bg-color: darken($silver, 7%);
+
+$block-grid-default-spacing: rem-calc(14);  // не помещаются sort в сетку на экранах около 800px, фикс
